@@ -59,7 +59,7 @@ export default function Portfolio() {
 
           <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8 }} className="relative flex justify-center">
             <div className="relative w-80 h-[450px] md:w-[400px] md:h-[550px] overflow-hidden rounded-3xl border border-white/10 group">
-              <img src="/profile-bw.jpg" alt="Azeem Ahsan" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-110" />
+              <img src="./profile-bw.jpg" alt="Azeem Ahsan" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-transparent opacity-60" />
             </div>
           </motion.div>
